@@ -22,7 +22,7 @@
 /sites/simpletest
 
 # Ignore drupal core (if not versioning drupal sources)
-/core
+#/core
 /modules/README.txt
 /profiles/README.txt
 /sites/README.txt
@@ -38,7 +38,7 @@
 /.gitattributes
 /.htaccess
 /autoload.php
-/composer.json
+#/composer.json
 /composer.lock
 /example.gitignore
 /index.php
