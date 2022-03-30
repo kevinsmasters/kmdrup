@@ -35,9 +35,20 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
         '786bf90caabc9e09b6ad4cc5ca8f0e30' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.legacy.php',
         '751a5a3f463e4be759be31748b61737c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.legacy.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        '256c1545158fc915c75e51a931bdba60' => __DIR__ . '/..' . '/lcobucci/jwt/compat/class-aliases.php',
+        '0d273777b2b0d96e49fb3d800c6b0e81' => __DIR__ . '/..' . '/lcobucci/jwt/compat/json-exception-polyfill.php',
+        'd6b246ac924292702635bb2349f4a64b' => __DIR__ . '/..' . '/lcobucci/jwt/compat/lcobucci-clock-polyfill.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'c' => 
+        array (
+            'cweagans\\Composer\\' => 18,
+        ),
+        'U' => 
+        array (
+            'Utilities\\' => 10,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -81,11 +92,18 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
         ),
         'L' => 
         array (
+            'League\\OAuth2\\Server\\' => 21,
+            'League\\Event\\' => 13,
+            'Lcobucci\\JWT\\' => 13,
             'Laminas\\ZendFrameworkBridge\\' => 28,
             'Laminas\\Stdlib\\' => 15,
             'Laminas\\Feed\\' => 13,
             'Laminas\\Escaper\\' => 16,
             'Laminas\\Diactoros\\' => 18,
+        ),
+        'J' => 
+        array (
+            'JsonPath\\' => 9,
         ),
         'G' => 
         array (
@@ -109,6 +127,7 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
+            'Defuse\\Crypto\\' => 14,
         ),
         'C' => 
         array (
@@ -122,6 +141,14 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
     );
 
     public static $prefixDirsPsr4 = array (
+        'cweagans\\Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
+        ),
+        'Utilities\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/galbar/jsonpath/src/Galbar/Utilities',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -238,6 +265,18 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
+        'League\\OAuth2\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-server/src',
+        ),
+        'League\\Event\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/event/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+        ),
         'Laminas\\ZendFrameworkBridge\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src',
@@ -257,6 +296,10 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
         'Laminas\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
+        ),
+        'JsonPath\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/galbar/jsonpath/src/Galbar/JsonPath',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -313,6 +356,10 @@ class ComposerStaticInit3a42c217171963c69817ebdbfa6388a3
         'Doctrine\\Common\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
         ),
         'Composer\\Semver\\' => 
         array (
