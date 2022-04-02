@@ -1,3 +1,11 @@
+
+root/web/sites/default/settings.php
+root/web/sites/default/files
+root/web/sites/default/public
+root/web/sites/default/private
+root/web/sites/default/files-public
+root/web/sites/default/files-private
+
 # gitignore template for Drupal 8 projects
 #
 # earlier versions of Drupal are tracked in `community/PHP/`
